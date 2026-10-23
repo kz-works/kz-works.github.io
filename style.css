@@ -1,0 +1,9 @@
+:root { --pink: #D13E5A; --bg: #FFF4F7; --text: #2B2430; --sub: #6B6370; }
+@media (prefers-color-scheme: dark) { :root { --pink: #FF7A90; --bg: #1A1420; --text: #F1ECF3; --sub: #B5ABB9; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, "Hiragino Sans", sans-serif; line-height: 1.8; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { color: var(--pink); font-size: 1.7rem; line-height: 1.4; }
+h2 { font-size: 1.15rem; margin-top: 2em; border-left: 4px solid var(--pink); padding-left: 10px; }
+a { color: var(--pink); }
+.sub { color: var(--sub); font-size: 0.9rem; }
